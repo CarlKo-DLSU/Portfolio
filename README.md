@@ -1,4 +1,4 @@
-# Portfolio
+# Carl Ko - Portfolio
 This is a select list of projects I have made in the past.
 
 ### <a href="https://github.com/CarlKo-DLSU/group2hacktool.git">LINKEDIN WEBTOOL INFORMATION SCRAPER (2024)</a>

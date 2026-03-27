@@ -125,7 +125,7 @@ body {
 }
 
 .about-container {
-  width: 50%;
+  width: 60%;
   display: flex;
   gap: 32px;
   align-items: center;
@@ -147,7 +147,7 @@ body {
 }
 
 .about-right h2 {
-  font-size: 2rem;
+  font-size: 4rem;
   margin-bottom: 16px;
   font-weight: 700;
 }
@@ -155,6 +155,7 @@ body {
 .about-right p {
   color: var(--muted);
   line-height: 1.6;
+  font-size: 1.35rem;
 }
 
 .works-section {
@@ -356,7 +357,7 @@ body {
   content: "";
   position: absolute;
 
-  width: calc(50% + 3.5rem);
+  width: calc(60% + 3.5rem);
   height: calc(100%);
 
   left: 50%;
@@ -425,7 +426,7 @@ body {
   margin: 40px 0;
 }
 
-.cybersec-section {
+.specialize-section {
   display: flex;
   justify-content: center;
   padding: 40px 20px 60px;
@@ -433,7 +434,7 @@ body {
   isolation: isolate;
 }
 
-.cybersec-container {
+.specialize-container {
   width: 90%;
   display: flex;
   flex-direction: column;
@@ -441,7 +442,7 @@ body {
 }
 
 /* shared boxed style like your home section feel */
-.cybersec-item {
+.specialize-item {
   display: flex;
   gap: 24px;
   text-decoration: none;
@@ -458,34 +459,34 @@ body {
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.cybersec-text {
+.specialize-text {
   flex: 0 0 40%;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.cybersec-text h2 {
+.specialize-text h2 {
   margin: 0 0 10px 0;
   font-size: 5rem;
   font-weight: 700;
 }
 
-.cybersec-text p {
+.specialize-text p {
   margin: 0;
   color: var(--muted);
   line-height: 1.6;
   font-size: 2rem;
 }
 
-.cybersec-image {
+.specialize-image {
   flex: 0 0 60%;
   padding: 0;              /* remove padding */
   display: flex;
 }
 
 /* create inner “gap” properly */
-.cybersec-image img {
+.specialize-image img {
   width: calc(100% - 4rem);   /* 2rem left + 2rem right */
   height: calc(100% - 4rem);  /* 2rem top + 2rem bottom */
 
@@ -498,12 +499,12 @@ body {
   box-shadow: 0 6px 16px rgba(0,0,0,0.08);
 }
 
-.cybersec-item:hover {
+.specialize-item:hover {
   transform: translateY(-5px);
   box-shadow: 0 12px 28px rgba(0,0,0,0.12);
 }
 
-.cybersec-item.reverse {
+.specialize-item.reverse {
   flex-direction: row-reverse;
   text-align: left;
 }

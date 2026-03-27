@@ -514,3 +514,22 @@ body {
   box-shadow: none;
   cursor: default;
 }
+
+.activities-item {
+  display: flex;
+  gap: 24px;
+  text-decoration: none;
+  color: inherit;
+  cursor: default;
+  text-align: right;
+  align-items: center;
+
+  background: rgba(4, 0, 255, 0.1);
+  border-radius: 18px;
+  padding: 24px;
+}
+
+.activities-item.reverse {
+  flex-direction: row-reverse;
+  text-align: left;
+}

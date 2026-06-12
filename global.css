@@ -106,7 +106,6 @@ body {
   background: var(--bg);
   border-bottom: 1px solid rgba(255,255,255,0.08);
   box-shadow: 0 6px 18px rgba(0,0,0,0.4) inset;
-
   display: flex;
   align-items: center; 
 }
@@ -150,19 +149,21 @@ body {
 
 .about-right {
   width: 60%;
+  align-items: center;
 }
 
 .about-right h2 {
   color: var(--text);
-  font-size: 4rem;
-  margin-bottom: 16px;
+  font-size: 2rem;
   font-weight: 700;
+  margin: 0 0 12px 0;
 }
 
 .about-right p {
   color: var(--muted);
   line-height: 1.6;
   font-size: 1.35rem;
+  margin-bottom: 0px;
 }
 
 .works-section {
@@ -444,7 +445,7 @@ body {
 }
 
 .specialize-container {
-  width: 90%;
+  width: 70%;
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -478,15 +479,15 @@ body {
 .specialize-text h2 {
   color: var(--text);
   margin: 0 0 10px 0;
-  font-size: 5rem;
-  font-weight: 700;
+  font-size: 3.5rem;
+  font-weight: 800;
 }
 
 .specialize-text p {
   margin: 0;
   color: var(--muted);
   line-height: 1.6;
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 .specialize-image {
@@ -499,6 +500,20 @@ body {
 .specialize-image img {
   width: calc(100% - 4rem);   /* 2rem left + 2rem right */
   height: calc(100% - 4rem);  /* 2rem top + 2rem bottom */
+
+  margin: auto;               /* centers it inside */
+  object-fit: cover;
+
+  border-radius: 12px;
+  display: block;
+
+  box-shadow: 0 6px 16px rgba(0,0,0,0.6);
+}
+
+.org-image img {
+  width: 70%;
+  height: 70%;
+  min-width: 35rem;
 
   margin: auto;               /* centers it inside */
   object-fit: cover;
